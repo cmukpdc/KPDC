@@ -1,0 +1,127 @@
+$colCount:          3;
+$gutterCount:       $colCount + 1;
+$noGutterCol:       100% / $colCount;
+$gutter:            $noGutterCol / 10; 
+$col:               $noGutterCol - $gutter - ($gutter / $colCount);
+$baseline:          1.5rem;
+$doubleColGutter:   (100% / 2) / 10;
+$doubleCol:         (100% / 2) - $doubleColGutter - ($doubleColGutter / 2);
+
+@mixin sectionPadding {
+    padding: 8rem $gutter;
+    
+    @media (min-width: 50em) {
+        padding: 10rem 0;
+    }
+    
+    @media (min-width: 80em) {
+        padding: 15rem 0;
+    }
+}
+
+@mixin colOne {
+    @media (min-width: 50em) {
+        width: $col;
+        float: left;
+        overflow: auto;
+        clear: left;
+        text-align: right;
+        margin-left: $gutter;
+    }
+}
+    
+@mixin colTwo {
+    @media (min-width: 50em) {
+        width: (1.5 * $col);
+        margin-right: (0.5 * $col) + ($gutter * 2);
+        float: right;
+        overflow: auto;
+        clear: right;
+    }
+}
+
+html {
+	overflow-y: scroll;
+}
+
+nav {
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+    //border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+    ul {
+        li {
+            margin-right: 2 * $gutter;
+            display: none;
+            
+            @media (min-width: 50em) {
+                display: inline;
+            }
+            
+            @media (min-width: 120em) {
+                float: right;
+                margin-right: $gutter;
+                margin-left: gutter;
+            }
+            
+            a {
+                padding-top: 3em;
+            }
+        }
+        
+        li:first-of-type {
+            margin-right: 4 * $gutter;
+            display: inline;
+            margin-left: $gutter;
+            
+            @media (min-width: 50em) {
+                margin-left: 0;
+            }
+            
+            @media (min-width: 120em) {
+                float: left;
+                margin-left: $gutter;
+                margin-right: 0;
+            }
+        }
+        
+        @media (min-width: 50em) {
+            margin-left: (2 * $gutter) + $col;
+        }
+        
+        @media (min-width: 120em) {
+            margin-left: 0;
+        }
+    }
+    
+    @media (min-width: 50em) {
+        margin-bottom: 3em;
+        position: fixed;
+    }
+}
+
+.maincontent {
+	padding-top: 6rem;
+}
+
+h1 {
+	display: block;
+	margin-bottom: 1em;
+}
+
+h1, h3, h4, h5, p {
+	@include colTwo;
+}
+
+h2 {
+	@include colOne;
+}
+
+section {
+	display: block;
+	margin-bottom: 4rem;
+	clear: both;
+}

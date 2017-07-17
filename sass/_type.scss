@@ -1,3 +1,69 @@
+@mixin typeBody {
+	font-family: ingra, sans-serif;
+	font-size: 1rem;
+	line-height: 1.5em;
+	margin-bottom: 1em;
+	color: #ccc;
+}
+
+@mixin typeHeader {
+	font-family: "futura pt", sans-serif;
+	font-size: 1rem;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .05em;
+	color: #ccc;
+}
+
+
+
+
+html {
+	background-color: #000;
+}
+
 p {
-	font-family: ingra;
+	@include typeBody;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	@include typeHeader;
+}
+
+h1 {
+	font-size: 2rem;
+	color: #fff;
+}
+
+h2 {
+	color: #fff;
+}
+
+a {
+	@include typeBody;
+	color: #fff;
+	text-decoration: underline;
+}
+
+nav {
+    display: block;
+	a {
+		@include typeHeader;
+		text-decoration: none;
+		font-weight: normal;
+		text-transform: none;
+	}
+	a.currentlink {
+	    text-decoration: underline;
+	    color: #fff;
+	}
+	ul {
+	    li {
+	        display: inline-block;
+	    }
+	    li:first-of-type a {
+	    @include typeHeader;
+	}
+	}
 }
