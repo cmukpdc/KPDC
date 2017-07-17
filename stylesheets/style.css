@@ -54,3 +54,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* line 1, ../sass/_type.scss */
+p {
+  font-family: ingra;
+}
