@@ -40,11 +40,13 @@ $doubleCol:         (100% / 2) - $doubleColGutter - ($doubleColGutter / 2);
     }
 }
 
+html {
+    background-color: #111;
+}
+
 nav {
     z-index: 1;
-    background: url('../images/headerbackground.jpg');
-    background-repeat: repeat-x;
-    background-size: auto 100%;  
+    background: rgba(0, 0, 0, 0.9); 
 	width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -191,6 +193,25 @@ img {
 	display: block;
 	margin-left: 0;
 	}
+}
+
+.bio img {
+	float: left;
+	margin-left: $gutter + .5 * $col;
+	max-width: $col / 2;
+	clear: left;
+
+	@media (max-width: 50em) {
+	    display: block;
+	    float: none;
+	    margin-left: 0;
+	    width: 100%;
+	    max-width: 100%;
+	}
+}
+
+.bio:first-of-type {
+	padding-top: 8rem;
 }
 
 .footer {

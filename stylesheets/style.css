@@ -56,16 +56,19 @@ table {
 }
 
 /* line 43, ../sass/_grid.scss */
+html {
+  background-color: #111;
+}
+
+/* line 47, ../sass/_grid.scss */
 nav {
   z-index: 1;
-  background: url("../images/headerbackground.jpg");
-  background-repeat: repeat-x;
-  background-size: auto 100%;
+  background: rgba(0, 0, 0, 0.9);
   width: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-/* line 52, ../sass/_grid.scss */
+/* line 54, ../sass/_grid.scss */
 nav .homesvg {
   width: 10%;
   height: 5rem;
@@ -73,7 +76,7 @@ nav .homesvg {
   margin-left: 22.22222%;
 }
 @media (max-width: 50em) {
-  /* line 52, ../sass/_grid.scss */
+  /* line 54, ../sass/_grid.scss */
   nav .homesvg {
     width: 10%;
     height: auto;
@@ -82,7 +85,7 @@ nav .homesvg {
   }
 }
 @media (min-width: 120em) {
-  /* line 52, ../sass/_grid.scss */
+  /* line 54, ../sass/_grid.scss */
   nav .homesvg {
     float: left;
     margin-left: 3.33333%;
@@ -91,12 +94,12 @@ nav .homesvg {
     height: 5rem;
   }
 }
-/* line 74, ../sass/_grid.scss */
+/* line 76, ../sass/_grid.scss */
 nav .hidden {
   display: none;
 }
 @media (min-width: 120em) {
-  /* line 74, ../sass/_grid.scss */
+  /* line 76, ../sass/_grid.scss */
   nav .hidden {
     display: inline-block;
     float: left;
@@ -106,13 +109,13 @@ nav .hidden {
     font-weight: normal;
   }
 }
-/* line 87, ../sass/_grid.scss */
+/* line 89, ../sass/_grid.scss */
 nav ul {
   padding-top: 1.7rem;
   width: 23em;
   margin: 0 auto;
 }
-/* line 92, ../sass/_grid.scss */
+/* line 94, ../sass/_grid.scss */
 nav ul li {
   padding-top: 0;
   display: inline-block;
@@ -120,7 +123,7 @@ nav ul li {
   margin-right: 3.33333%;
 }
 @media (max-width: 50em) {
-  /* line 92, ../sass/_grid.scss */
+  /* line 94, ../sass/_grid.scss */
   nav ul li {
     display: inline;
     text-align: center;
@@ -129,57 +132,57 @@ nav ul li {
   }
 }
 @media (min-width: 120em) {
-  /* line 92, ../sass/_grid.scss */
+  /* line 94, ../sass/_grid.scss */
   nav ul li {
     float: right;
     margin-right: 3.33333%;
   }
 }
-/* line 110, ../sass/_grid.scss */
+/* line 112, ../sass/_grid.scss */
 nav ul li a {
   margin-top: 3em;
 }
 @media (min-width: 50em) {
-  /* line 87, ../sass/_grid.scss */
+  /* line 89, ../sass/_grid.scss */
   nav ul {
     margin-left: 35.55556%;
     width: auto;
   }
 }
 @media (min-width: 120em) {
-  /* line 87, ../sass/_grid.scss */
+  /* line 89, ../sass/_grid.scss */
   nav ul {
     margin-left: 0;
   }
 }
 @media (min-width: 50em) {
-  /* line 43, ../sass/_grid.scss */
+  /* line 47, ../sass/_grid.scss */
   nav {
     margin-bottom: 3em;
     position: fixed;
   }
 }
 
-/* line 131, ../sass/_grid.scss */
+/* line 133, ../sass/_grid.scss */
 .maincontent {
   padding-top: 16.66667%;
   overflow: auto;
 }
 @media (max-width: 50em) {
-  /* line 131, ../sass/_grid.scss */
+  /* line 133, ../sass/_grid.scss */
   .maincontent {
     padding-top: 0;
   }
 }
 
-/* line 140, ../sass/_grid.scss */
+/* line 142, ../sass/_grid.scss */
 h1 {
   display: block;
   margin-bottom: 1em;
 }
 
 @media (min-width: 50em) {
-  /* line 145, ../sass/_grid.scss */
+  /* line 147, ../sass/_grid.scss */
   h1, h3, h4, h5, p {
     width: 43.33333%;
     margin-right: 21.11111%;
@@ -190,7 +193,7 @@ h1 {
 }
 
 @media (min-width: 50em) {
-  /* line 149, ../sass/_grid.scss */
+  /* line 151, ../sass/_grid.scss */
   h2 {
     width: 28.88889%;
     float: left;
@@ -201,41 +204,41 @@ h1 {
   }
 }
 
-/* line 153, ../sass/_grid.scss */
+/* line 155, ../sass/_grid.scss */
 section {
   display: block;
   padding-top: 5rem;
   clear: both;
 }
 
-/* line 159, ../sass/_grid.scss */
+/* line 161, ../sass/_grid.scss */
 section:target {
   padding-top: 15rem;
 }
 @media (max-width: 50em) {
-  /* line 159, ../sass/_grid.scss */
+  /* line 161, ../sass/_grid.scss */
   section:target {
     padding-top: 3rem;
   }
 }
 
-/* line 167, ../sass/_grid.scss */
+/* line 169, ../sass/_grid.scss */
 .indent, li {
   margin-left: 3em;
 }
 
-/* line 171, ../sass/_grid.scss */
+/* line 173, ../sass/_grid.scss */
 .topspace {
   margin-top: 1em;
 }
 
 @media (max-width: 50em) {
-  /* line 176, ../sass/_grid.scss */
+  /* line 178, ../sass/_grid.scss */
   body {
     margin: 0 3.33333%;
   }
 }
-/* line 181, ../sass/_grid.scss */
+/* line 183, ../sass/_grid.scss */
 img {
   float: left;
   margin-left: 35.55556%;
@@ -244,7 +247,7 @@ img {
   border-radius: 5px;
 }
 @media (max-width: 50em) {
-  /* line 181, ../sass/_grid.scss */
+  /* line 183, ../sass/_grid.scss */
   img {
     max-width: 100%;
     float: none;
@@ -253,17 +256,35 @@ img {
   }
 }
 
-/* line 196, ../sass/_grid.scss */
+/* line 198, ../sass/_grid.scss */
+.bio img {
+  float: left;
+  margin-left: 17.77778%;
+  max-width: 14.44444%;
+  clear: left;
+}
+@media (max-width: 50em) {
+  /* line 198, ../sass/_grid.scss */
+  .bio img {
+    display: block;
+    float: none;
+    margin-left: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* line 213, ../sass/_grid.scss */
+.bio:first-of-type {
+  padding-top: 8rem;
+}
+
+/* line 217, ../sass/_grid.scss */
 .footer {
   height: 30rem;
 }
 
-/* line 22, ../sass/_type.scss */
-html {
-  background-color: #111;
-}
-
-/* line 26, ../sass/_type.scss */
+/* line 19, ../sass/_type.scss */
 p {
   font-family: "ingra-2", ingra, sans-serif;
   font-size: 1rem;
@@ -272,7 +293,7 @@ p {
   color: #ccc;
 }
 
-/* line 30, ../sass/_type.scss */
+/* line 23, ../sass/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "futura-pt", "futura pt", sans-serif;
   font-size: 1rem;
@@ -283,24 +304,24 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/* line 34, ../sass/_type.scss */
+/* line 27, ../sass/_type.scss */
 h1 {
   font-size: 2rem;
   color: #fff;
 }
 @media (max-width: 50em) {
-  /* line 34, ../sass/_type.scss */
+  /* line 27, ../sass/_type.scss */
   h1 {
     display: none;
   }
 }
 
-/* line 43, ../sass/_type.scss */
+/* line 36, ../sass/_type.scss */
 h2 {
   color: #fff;
 }
 
-/* line 47, ../sass/_type.scss */
+/* line 40, ../sass/_type.scss */
 a {
   font-family: "ingra-2", ingra, sans-serif;
   font-size: 1rem;
@@ -312,11 +333,11 @@ a {
   line-height: 1.5em;
 }
 
-/* line 54, ../sass/_type.scss */
+/* line 47, ../sass/_type.scss */
 nav {
   display: block;
 }
-/* line 56, ../sass/_type.scss */
+/* line 49, ../sass/_type.scss */
 nav a {
   font-family: "futura-pt", "futura pt", sans-serif;
   font-size: 1rem;
@@ -327,14 +348,14 @@ nav a {
   color: #fff;
   text-decoration: none;
 }
-/* line 60, ../sass/_type.scss */
+/* line 53, ../sass/_type.scss */
 nav a.currentlink {
   text-decoration: underline;
   color: #fff;
 }
 
 @media (max-width: 50em) {
-  /* line 67, ../sass/_type.scss */
+  /* line 60, ../sass/_type.scss */
   h2 {
     font-size: 1.5rem;
   }
