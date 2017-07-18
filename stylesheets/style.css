@@ -67,8 +67,8 @@ nav {
   background-repeat: repeat-x;
   background-size: auto 100%;
   width: 100%;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 /* line 56, ../sass/_grid.scss */
 nav .homesvg {
@@ -142,7 +142,7 @@ nav ul li {
 }
 /* line 114, ../sass/_grid.scss */
 nav ul li a {
-  padding-top: 3em;
+  margin-top: 3em;
 }
 @media (min-width: 50em) {
   /* line 91, ../sass/_grid.scss */
