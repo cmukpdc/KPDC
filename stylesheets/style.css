@@ -205,32 +205,31 @@ h1 {
 section {
   display: block;
   padding-top: 5rem;
-  margin-top: -10rem;
   clear: both;
 }
 
-/* line 160, ../sass/_grid.scss */
+/* line 159, ../sass/_grid.scss */
 section:target {
   padding-top: 15rem;
 }
 
-/* line 164, ../sass/_grid.scss */
+/* line 163, ../sass/_grid.scss */
 .indent, li {
   margin-left: 3em;
 }
 
-/* line 168, ../sass/_grid.scss */
+/* line 167, ../sass/_grid.scss */
 .topspace {
   margin-top: 1em;
 }
 
 @media (max-width: 50em) {
-  /* line 173, ../sass/_grid.scss */
+  /* line 172, ../sass/_grid.scss */
   body {
     margin: 0 3.33333%;
   }
 }
-/* line 181, ../sass/_grid.scss */
+/* line 180, ../sass/_grid.scss */
 img {
   float: left;
   margin-left: 35.55556%;
@@ -239,7 +238,7 @@ img {
   border-radius: 5px;
 }
 @media (max-width: 50em) {
-  /* line 181, ../sass/_grid.scss */
+  /* line 180, ../sass/_grid.scss */
   img {
     max-width: 100%;
     float: none;
@@ -248,7 +247,7 @@ img {
   }
 }
 
-/* line 196, ../sass/_grid.scss */
+/* line 195, ../sass/_grid.scss */
 .footer {
   height: 30rem;
 }
