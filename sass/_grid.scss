@@ -43,15 +43,17 @@ $doubleCol:         (100% / 2) - $doubleColGutter - ($doubleColGutter / 2);
 html {
     background-color: #111;
     background: url('../images/background.png');
+    background-attachment: fixed;
+
 }
 
 nav {
     z-index: 1;
-    background: rgba(0, 0, 0, 0.9); 
+    background: rgba(0, 0, 0, 0.8); 
+    background: url('../images/background.png');
 	width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    border-bottom: #333 1px solid;
 
 	.homesvg {
 	    width: 3 * $gutter;
@@ -133,14 +135,13 @@ nav {
         right: 0;
         margin-left: auto;
         margin-right: auto;
-        border-right: #333 1px solid;
-        border-left: #333 1px solid;
 	}
 }
 
 .maincontent {
 	padding-top: 18rem;
 	overflow: auto;
+    background: url('../images/whitebackground.png');
 
 	@media (max-width: 50em) {
 	    padding-top:0;
@@ -168,7 +169,7 @@ h2 {
 
 section {
 	display: block;
-	padding-top: 5rem;
+	padding-top: 2rem;
 	clear: both;
 }
 
@@ -252,4 +253,10 @@ img {
 }
 .footer {
 	height: 30rem;
+}
+
+.herosvg {
+	width: $col;
+	margin-left: 1.25 * $col + 2 * $gutter;
+	padding-bottom: 3rem;
 }

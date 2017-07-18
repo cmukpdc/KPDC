@@ -3,7 +3,7 @@
 	font-size: 1rem;
 	line-height: 1.5em;
 	margin-bottom: 1em;
-	color: #ccc;
+	color: #333;
 	font-weight: 300;
 }
 
@@ -14,7 +14,7 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: .05em;
-	color: #fff;
+	color: #000;
 }
 
 p {
@@ -23,7 +23,7 @@ p {
 
 strong {
 	font-weight: 500;
-	color: white;
+	color: #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 2rem;
-	color: #fff;
+	color: #000;
 
 	@media (max-width: 50em) {
 	    display: none;
@@ -40,12 +40,12 @@ h1 {
 }
 
 h2 {
-	color: #fff;
+	color: #000;
 }
 
 a {
 	@include typeBody;
-	color: #fff;
+	color: #000;
 	text-decoration: underline;
 	line-height: 1.5em;
 }
@@ -55,6 +55,7 @@ nav {
 	a {
 		@include typeHeader;
 		text-decoration: none;
+		color: #fff;
 	}
 	a.currentlink {
 	    text-decoration: underline;
