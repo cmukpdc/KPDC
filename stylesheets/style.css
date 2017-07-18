@@ -75,10 +75,10 @@ nav .homesvg {
 @media (max-width: 50em) {
   /* line 52, ../sass/_grid.scss */
   nav .homesvg {
-    width: 15%;
+    width: 10%;
     height: auto;
     float: none;
-    margin: 0 42.5%;
+    margin: 0 45%;
   }
 }
 @media (min-width: 120em) {
