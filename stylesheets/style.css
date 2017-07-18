@@ -215,7 +215,7 @@ section:target {
 @media (max-width: 50em) {
   /* line 159, ../sass/_grid.scss */
   section:target {
-    paddint-top: 3rem;
+    padding-top: 3rem;
   }
 }
 
