@@ -56,11 +56,6 @@ table {
 }
 
 /* line 43, ../sass/_grid.scss */
-html {
-  overflow-y: scroll;
-}
-
-/* line 47, ../sass/_grid.scss */
 nav {
   z-index: 1;
   background: url("../images/headerbackground.jpg");
@@ -70,7 +65,7 @@ nav {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-/* line 56, ../sass/_grid.scss */
+/* line 52, ../sass/_grid.scss */
 nav .homesvg {
   width: 10%;
   height: 5rem;
@@ -78,7 +73,7 @@ nav .homesvg {
   margin-left: 22.22222%;
 }
 @media (max-width: 50em) {
-  /* line 56, ../sass/_grid.scss */
+  /* line 52, ../sass/_grid.scss */
   nav .homesvg {
     width: 15%;
     height: auto;
@@ -87,7 +82,7 @@ nav .homesvg {
   }
 }
 @media (min-width: 120em) {
-  /* line 56, ../sass/_grid.scss */
+  /* line 52, ../sass/_grid.scss */
   nav .homesvg {
     float: left;
     margin-left: 3.33333%;
@@ -96,12 +91,12 @@ nav .homesvg {
     height: 5rem;
   }
 }
-/* line 78, ../sass/_grid.scss */
+/* line 74, ../sass/_grid.scss */
 nav .hidden {
   display: none;
 }
 @media (min-width: 120em) {
-  /* line 78, ../sass/_grid.scss */
+  /* line 74, ../sass/_grid.scss */
   nav .hidden {
     display: inline-block;
     float: left;
@@ -111,13 +106,13 @@ nav .hidden {
     font-weight: normal;
   }
 }
-/* line 91, ../sass/_grid.scss */
+/* line 87, ../sass/_grid.scss */
 nav ul {
   padding-top: 1.7rem;
-  width: 22em;
+  width: 23em;
   margin: 0 auto;
 }
-/* line 96, ../sass/_grid.scss */
+/* line 92, ../sass/_grid.scss */
 nav ul li {
   padding-top: 0;
   display: inline-block;
@@ -125,7 +120,7 @@ nav ul li {
   margin-right: 3.33333%;
 }
 @media (max-width: 50em) {
-  /* line 96, ../sass/_grid.scss */
+  /* line 92, ../sass/_grid.scss */
   nav ul li {
     display: inline;
     text-align: center;
@@ -134,56 +129,57 @@ nav ul li {
   }
 }
 @media (min-width: 120em) {
-  /* line 96, ../sass/_grid.scss */
+  /* line 92, ../sass/_grid.scss */
   nav ul li {
     float: right;
     margin-right: 3.33333%;
   }
 }
-/* line 114, ../sass/_grid.scss */
+/* line 110, ../sass/_grid.scss */
 nav ul li a {
   margin-top: 3em;
 }
 @media (min-width: 50em) {
-  /* line 91, ../sass/_grid.scss */
+  /* line 87, ../sass/_grid.scss */
   nav ul {
     margin-left: 35.55556%;
     width: auto;
   }
 }
 @media (min-width: 120em) {
-  /* line 91, ../sass/_grid.scss */
+  /* line 87, ../sass/_grid.scss */
   nav ul {
     margin-left: 0;
   }
 }
 @media (min-width: 50em) {
-  /* line 47, ../sass/_grid.scss */
+  /* line 43, ../sass/_grid.scss */
   nav {
     margin-bottom: 3em;
     position: fixed;
   }
 }
 
-/* line 135, ../sass/_grid.scss */
+/* line 131, ../sass/_grid.scss */
 .maincontent {
   padding-top: 16.66667%;
+  overflow: auto;
 }
 @media (max-width: 50em) {
-  /* line 135, ../sass/_grid.scss */
+  /* line 131, ../sass/_grid.scss */
   .maincontent {
     padding-top: 0;
   }
 }
 
-/* line 143, ../sass/_grid.scss */
+/* line 140, ../sass/_grid.scss */
 h1 {
   display: block;
   margin-bottom: 1em;
 }
 
 @media (min-width: 50em) {
-  /* line 148, ../sass/_grid.scss */
+  /* line 145, ../sass/_grid.scss */
   h1, h3, h4, h5, p {
     width: 43.33333%;
     margin-right: 21.11111%;
@@ -194,7 +190,7 @@ h1 {
 }
 
 @media (min-width: 50em) {
-  /* line 152, ../sass/_grid.scss */
+  /* line 149, ../sass/_grid.scss */
   h2 {
     width: 28.88889%;
     float: left;
@@ -205,30 +201,36 @@ h1 {
   }
 }
 
-/* line 156, ../sass/_grid.scss */
+/* line 153, ../sass/_grid.scss */
 section {
   display: block;
   padding-top: 5rem;
+  margin-top: -10rem;
   clear: both;
 }
 
-/* line 162, ../sass/_grid.scss */
+/* line 160, ../sass/_grid.scss */
+section:target {
+  padding-top: 15rem;
+}
+
+/* line 164, ../sass/_grid.scss */
 .indent, li {
   margin-left: 3em;
 }
 
-/* line 166, ../sass/_grid.scss */
+/* line 168, ../sass/_grid.scss */
 .topspace {
   margin-top: 1em;
 }
 
 @media (max-width: 50em) {
-  /* line 171, ../sass/_grid.scss */
+  /* line 173, ../sass/_grid.scss */
   body {
     margin: 0 3.33333%;
   }
 }
-/* line 179, ../sass/_grid.scss */
+/* line 181, ../sass/_grid.scss */
 img {
   float: left;
   margin-left: 35.55556%;
@@ -237,13 +239,18 @@ img {
   border-radius: 5px;
 }
 @media (max-width: 50em) {
-  /* line 179, ../sass/_grid.scss */
+  /* line 181, ../sass/_grid.scss */
   img {
     max-width: 100%;
     float: none;
     display: block;
     margin-left: 0;
   }
+}
+
+/* line 196, ../sass/_grid.scss */
+.footer {
+  height: 30rem;
 }
 
 /* line 22, ../sass/_type.scss */
@@ -297,7 +304,7 @@ a {
   color: #ccc;
   color: #fff;
   text-decoration: underline;
-  line-height: 1.2em;
+  line-height: 1.5em;
 }
 
 /* line 54, ../sass/_type.scss */

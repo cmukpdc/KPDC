@@ -40,10 +40,6 @@ $doubleCol:         (100% / 2) - $doubleColGutter - ($doubleColGutter / 2);
     }
 }
 
-html {
-	overflow-y: scroll;
-}
-
 nav {
     z-index: 1;
     background: url('../images/headerbackground.jpg');
@@ -90,7 +86,7 @@ nav {
 
     ul {
     	padding-top: 1.7rem;
-    	width: 22em;
+    	width: 23em;
     	margin: 0 auto;
 
         li {
@@ -134,6 +130,7 @@ nav {
 
 .maincontent {
 	padding-top: 5 * $gutter;
+	overflow: auto;
 
 	@media (max-width: 50em) {
 	    padding-top:0;
@@ -156,7 +153,12 @@ h2 {
 section {
 	display: block;
 	padding-top: 5rem;
+	margin-top: -10rem;
 	clear: both;
+}
+
+section:target {
+	padding-top: 15rem;
 }
 
 .indent, li {
@@ -189,4 +191,8 @@ img {
 	display: block;
 	margin-left: 0;
 	}
+}
+
+.footer {
+	height: 30rem;
 }
