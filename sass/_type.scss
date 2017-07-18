@@ -1,5 +1,5 @@
 @mixin typeBody {
-	font-family: "ingra-2", ingra, sans-serif;
+	font-family: "tk-ingra-2", ingra, sans-serif;
 	font-size: 1rem;
 	line-height: 1.5em;
 	margin-bottom: 1em;
@@ -8,7 +8,7 @@
 }
 
 @mixin typeHeader {
-	font-family: "futura-pt", "futura pt", sans-serif;
+	font-family: "tk-futura-pt", "futura pt", sans-serif;
 	font-size: 1rem;
 	line-height: 1.5em;
 	text-transform: uppercase;
