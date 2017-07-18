@@ -324,16 +324,23 @@ img {
   height: 30rem;
 }
 
-/* line 19, ../sass/_type.scss */
+/* line 20, ../sass/_type.scss */
 p {
   font-family: "ingra-2", ingra, sans-serif;
   font-size: 1rem;
   line-height: 1.5em;
   margin-bottom: 1em;
   color: #ccc;
+  font-weight: 300;
 }
 
-/* line 23, ../sass/_type.scss */
+/* line 24, ../sass/_type.scss */
+strong {
+  font-weight: 500;
+  color: white;
+}
+
+/* line 29, ../sass/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "futura-pt", "futura pt", sans-serif;
   font-size: 1rem;
@@ -344,40 +351,41 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/* line 27, ../sass/_type.scss */
+/* line 33, ../sass/_type.scss */
 h1 {
   font-size: 2rem;
   color: #fff;
 }
 @media (max-width: 50em) {
-  /* line 27, ../sass/_type.scss */
+  /* line 33, ../sass/_type.scss */
   h1 {
     display: none;
   }
 }
 
-/* line 36, ../sass/_type.scss */
+/* line 42, ../sass/_type.scss */
 h2 {
   color: #fff;
 }
 
-/* line 40, ../sass/_type.scss */
+/* line 46, ../sass/_type.scss */
 a {
   font-family: "ingra-2", ingra, sans-serif;
   font-size: 1rem;
   line-height: 1.5em;
   margin-bottom: 1em;
   color: #ccc;
+  font-weight: 300;
   color: #fff;
   text-decoration: underline;
   line-height: 1.5em;
 }
 
-/* line 47, ../sass/_type.scss */
+/* line 53, ../sass/_type.scss */
 nav {
   display: block;
 }
-/* line 49, ../sass/_type.scss */
+/* line 55, ../sass/_type.scss */
 nav a {
   font-family: "futura-pt", "futura pt", sans-serif;
   font-size: 1rem;
@@ -388,14 +396,14 @@ nav a {
   color: #fff;
   text-decoration: none;
 }
-/* line 53, ../sass/_type.scss */
+/* line 59, ../sass/_type.scss */
 nav a.currentlink {
   text-decoration: underline;
   color: #fff;
 }
 
 @media (max-width: 50em) {
-  /* line 60, ../sass/_type.scss */
+  /* line 66, ../sass/_type.scss */
   h2 {
     font-size: 1.5rem;
   }
