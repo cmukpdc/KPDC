@@ -131,11 +131,17 @@ nav {
 }
 
 .maincontent {
-	padding-top: 5 * $gutter;
+	padding-top: 6 * $gutter;
 	overflow: auto;
 
 	@media (max-width: 50em) {
 	    padding-top:0;
+	}
+
+	@media (min-width: 120em) {
+	    padding-top: 20rem;
+	    width: 110rem;
+	    margin: 0 auto;
 	}
 }
 
@@ -175,7 +181,7 @@ section:target {
 }
 
 @media (max-width:50em) {
-	body {
+	.maincontent {
 		margin: 0 $gutter;
 	}
 }
@@ -207,13 +213,35 @@ img {
 	    margin-left: 0;
 	    width: 100%;
 	    max-width: 100%;
+	    margin-bottom:0.5rem;
 	}
 }
 
 .bio:first-of-type {
-	padding-top: 8rem;
+	padding-top: 2rem;
+
+	@media (max-width: 50em) {
+	    padding-top: 2rem;
+	}
 }
 
+.bio {
+	height: auto;
+	padding: 1rem 0;
+	clear: both;
+
+	@media (max-width: 50em) {
+	    padding: 1rem 0;
+	}
+}
+
+.bio:last-of-type {
+	padding-bottom: 18rem;
+
+	@media (max-width: 50em) {
+	    padding-bottom: 2rem;
+	}
+}
 .footer {
 	height: 30rem;
 }
