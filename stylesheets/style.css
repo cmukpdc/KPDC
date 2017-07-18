@@ -145,7 +145,7 @@ nav ul li a {
 
 /* line 141, ../sass/_grid.scss */
 .maincontent {
-  padding-top: 20%;
+  padding-top: 18rem;
   overflow: auto;
 }
 @media (max-width: 50em) {
