@@ -326,7 +326,7 @@ img {
 
 /* line 20, ../sass/_type.scss */
 p {
-  font-family: "tk-ingra-2", ingra, sans-serif;
+  font-family: "ingra-2", ingra, sans-serif;
   font-size: 1rem;
   line-height: 1.5em;
   margin-bottom: 1em;
@@ -342,7 +342,7 @@ strong {
 
 /* line 29, ../sass/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "tk-futura-pt", "futura pt", sans-serif;
+  font-family: "futura-pt", "futura pt", sans-serif;
   font-size: 1rem;
   line-height: 1.5em;
   text-transform: uppercase;
@@ -370,7 +370,7 @@ h2 {
 
 /* line 46, ../sass/_type.scss */
 a {
-  font-family: "tk-ingra-2", ingra, sans-serif;
+  font-family: "ingra-2", ingra, sans-serif;
   font-size: 1rem;
   line-height: 1.5em;
   margin-bottom: 1em;
@@ -387,7 +387,7 @@ nav {
 }
 /* line 55, ../sass/_type.scss */
 nav a {
-  font-family: "tk-futura-pt", "futura pt", sans-serif;
+  font-family: "futura-pt", "futura pt", sans-serif;
   font-size: 1rem;
   line-height: 1.5em;
   text-transform: uppercase;
