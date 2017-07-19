@@ -399,17 +399,18 @@ h1 {
 @media (max-width: 50em) {
   /* line 33, ../sass/_type.scss */
   h1 {
-    display: none;
+    margin-bottom: 0;
+    margin-top: 2rem;
   }
 }
 
-/* line 42, ../sass/_type.scss */
+/* line 43, ../sass/_type.scss */
 h2 {
   color: #000;
   clear: both;
 }
 
-/* line 47, ../sass/_type.scss */
+/* line 48, ../sass/_type.scss */
 a {
   font-family: "ingra-2", ingra, sans-serif;
   font-size: 1rem;
@@ -422,11 +423,11 @@ a {
   line-height: 1.5em;
 }
 
-/* line 54, ../sass/_type.scss */
+/* line 55, ../sass/_type.scss */
 nav {
   display: block;
 }
-/* line 56, ../sass/_type.scss */
+/* line 57, ../sass/_type.scss */
 nav a {
   font-family: "futura-pt", "futura pt", sans-serif;
   font-size: 1rem;
@@ -438,19 +439,19 @@ nav a {
   text-decoration: none;
   color: #fff;
 }
-/* line 61, ../sass/_type.scss */
+/* line 62, ../sass/_type.scss */
 nav a.currentlink {
   text-decoration: underline;
   color: #fff;
 }
 
 @media (max-width: 50em) {
-  /* line 68, ../sass/_type.scss */
+  /* line 69, ../sass/_type.scss */
   h2 {
     font-size: 1.5rem;
   }
 }
-/* line 73, ../sass/_type.scss */
+/* line 74, ../sass/_type.scss */
 .dropdownmenu {
   font-family: "futura-pt", "futura pt", sans-serif;
   font-size: 1rem;
