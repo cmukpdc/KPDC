@@ -7,17 +7,6 @@ $baseline:          1.5rem;
 $doubleColGutter:   (100% / 2) / 10;
 $doubleCol:         (100% / 2) - $doubleColGutter - ($doubleColGutter / 2);
 
-@mixin sectionPadding {
-    padding: 8rem $gutter;
-    
-    @media (min-width: 50em) {
-        padding: 10rem 0;
-    }
-    
-    @media (min-width: 80em) {
-        padding: 15rem 0;
-    }
-}
 
 @mixin colOne {
     @media (min-width: 50em) {
@@ -119,7 +108,7 @@ nav {
             //}
             
             a {
-                margin-top: 3em;
+                padding: 1rem 0;
             }
         }
         
@@ -187,7 +176,7 @@ section:target {
 }
 
 .indent, li {
-	margin-left: 3em;
+	margin-left: $gutter;
 }
 
 .topspace {
@@ -257,7 +246,8 @@ img {
 	}
 }
 .footer {
-	height: 30rem;
+	height: 12rem;
+	clear: both;
 }
 
 .herosvg {
@@ -270,5 +260,40 @@ img {
 		margin-left: 25%;
 		margin-top: 2rem;
 		padding-bottom: 2rem;
+	}
+}
+
+.visibleOff {
+	display: none;
+}
+
+.dropdownmenu:hover {
+	text-decoration: underline;
+	cursor: hand;
+}
+
+.visibleOn {
+	display: block;
+	background: url('../images/greybackground.png');
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: auto;
+
+	li {
+	    margin: 0;
+	    display: block;
+
+	    a {
+	        padding: 1rem;
+	        display: block;
+	        margin: 0;
+	    }
+	}
+}
+
+nav {
+	a:hover {
+	    text-decoration: underline;
 	}
 }

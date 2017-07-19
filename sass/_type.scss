@@ -68,3 +68,8 @@ nav {
 	    font-size: 1.5rem;
 	}
 }
+
+.dropdownmenu {
+	@include typeHeader;
+	color: #fff;
+}

@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<script src="https://use.typekit.net/wey6glc.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<script src="../javascript/javascript.js"></script>
 		<link rel="shortcut icon" href="../images/favicon.ico" type="image/x=icon">
 	</head>
 	<body>
@@ -29,14 +30,25 @@
 							<polygon points="280.8,527.8 394,414.6 280.8,414.6 	"/>
 						</g>
 					</svg>
+					<h1 class="hidden">KPDC</h1>
 				</a>
 				<ul>
-					<li><a href="../opportunities/index.html">Opportunities</a></li>
+					<li onclick="dropdown()" class="dropdownmenu"><a>Opportunities</a>
+						<ul id="opportunitiesdropdown" class="visibleOff">
+							<li><a href="../opportunities/openclass.html">Open Class</a></li>
+							<li><a href="../opportunities/officialsubunits.html">Official Subunits</a></li>
+							<li><a href="../opportunities/sideprojects.html">Side Projects</a></li>
+							<li><a href="../opportunities/covercontests.html">Cover Contests</a></li>
+							<li><a href="../opportunities/specialeventsubunits.html">Special Event Subunits</a></li>
+							<li><a href="../opportunities/kpdcrew.html">KPDCrew</a></li>
+						</ul>
+					</li>
 					<li><a href="../events/index.html">Events</a></li>
 					<li><a class="currentlink" href="../leadership/index.html">Leadership</a></li>
 				</ul>
+			</nav>
 		</header>
-		<div class="maincontent">
+		<div onclick="closedropdown()" class="maincontent">
 			<h1>Leadership</h1>
 			<section id="danceinstructors">
 				<h2>Dance Instructors</h2>
