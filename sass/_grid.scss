@@ -64,6 +64,7 @@ nav {
 	    height: 5rem;
 	    float: left;
 	    margin-left: $col - 2 * $gutter;
+	    fill: white;
 
 	    @media (max-width: 50em) {
 	    width: 10%;
