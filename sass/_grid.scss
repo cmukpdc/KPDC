@@ -261,8 +261,8 @@ img {
 }
 
 .herosvg {
-	width: $col;
-	margin-left: 1.25 * $col + 2 * $gutter;
+	width: $col - 10%;
+	margin-left: 1.25 * $col + 2 * $gutter + 5%;
 	padding-bottom: 3rem;
 
 	@media (max-width: 50em) {
