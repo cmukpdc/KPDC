@@ -376,7 +376,7 @@ nav a:hover {
 /* line 306, ../sass/_grid.scss */
 #announcement {
   background: url("../images/greybackground.png");
-  width: 100%;
+  width: auto;
   margin: 0;
   padding: 0;
   clear: both;
