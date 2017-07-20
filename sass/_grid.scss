@@ -37,7 +37,6 @@ html {
     @media (max-width: 50em) {
     	background: url('../images/whitebackground.png');
     }
-
 }
 
 nav {
@@ -363,6 +362,13 @@ nav {
 	        padding-bottom: 1rem;
 	    }
 	    svg {display: none;}
+	}
+
+	@media (min-width: 120em) {
+	    width: 110em;
+	    margin: 0 auto;
+	    left: 0;
+	    right: 0;
 	}
 }
 
