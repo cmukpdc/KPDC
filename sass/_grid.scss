@@ -363,7 +363,9 @@ nav {
 	        margin-right: 2 * $gutter;
 	        padding-bottom: 1rem;
 	    }
-	    svg {display: none;}
+	    svg {
+	        margin-right: 0;
+	    }
 	}
 
 	@media (min-width: 120em) {

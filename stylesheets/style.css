@@ -440,7 +440,7 @@ nav a:hover {
   }
   /* line 366, ../sass/_grid.scss */
   #announcement svg {
-    display: none;
+    margin-right: 0;
   }
 }
 @media (min-width: 120em) {
@@ -453,12 +453,12 @@ nav a:hover {
   }
 }
 
-/* line 377, ../sass/_grid.scss */
+/* line 379, ../sass/_grid.scss */
 .announcementon {
   display: block;
 }
 
-/* line 381, ../sass/_grid.scss */
+/* line 383, ../sass/_grid.scss */
 .announcementoff {
   display: none;
 }
