@@ -70,6 +70,8 @@ html {
 
 /* line 42, ../sass/_grid.scss */
 nav {
+  -webkit-transform: translate3d(0, 0, 1px);
+  transform: translate3d(0, 0, 1px);
   z-index: 1;
   background: rgba(0, 0, 0, 0.8);
   background: url("../images/background.png");
@@ -77,7 +79,7 @@ nav {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 50, ../sass/_grid.scss */
+/* line 52, ../sass/_grid.scss */
 nav .homesvg {
   width: 10%;
   height: 5rem;
@@ -86,7 +88,7 @@ nav .homesvg {
   fill: white;
 }
 @media (max-width: 50em) {
-  /* line 50, ../sass/_grid.scss */
+  /* line 52, ../sass/_grid.scss */
   nav .homesvg {
     width: 10%;
     height: auto;
@@ -94,17 +96,17 @@ nav .homesvg {
     margin: 0 45%;
   }
 }
-/* line 73, ../sass/_grid.scss */
+/* line 75, ../sass/_grid.scss */
 nav .hidden {
   display: none;
 }
-/* line 86, ../sass/_grid.scss */
+/* line 88, ../sass/_grid.scss */
 nav ul {
   padding-top: 1.7rem;
   width: 22em;
   margin: 0 auto;
 }
-/* line 91, ../sass/_grid.scss */
+/* line 93, ../sass/_grid.scss */
 nav ul li {
   padding-top: 0;
   display: inline-block;
@@ -112,7 +114,7 @@ nav ul li {
   margin-right: 3.33333%;
 }
 @media (max-width: 50em) {
-  /* line 91, ../sass/_grid.scss */
+  /* line 93, ../sass/_grid.scss */
   nav ul li {
     display: inline;
     text-align: center;
@@ -120,12 +122,12 @@ nav ul li {
     margin-right: .5em;
   }
 }
-/* line 109, ../sass/_grid.scss */
+/* line 111, ../sass/_grid.scss */
 nav ul li a {
   padding: 1rem 0;
 }
 @media (min-width: 50em) {
-  /* line 86, ../sass/_grid.scss */
+  /* line 88, ../sass/_grid.scss */
   nav ul {
     margin-left: 35.55556%;
     width: auto;
@@ -149,21 +151,21 @@ nav ul li a {
   }
 }
 
-/* line 134, ../sass/_grid.scss */
+/* line 136, ../sass/_grid.scss */
 .maincontent {
   padding-top: 16rem;
   overflow: auto;
   background: url("../images/whitebackground.png");
 }
 @media (max-width: 50em) {
-  /* line 134, ../sass/_grid.scss */
+  /* line 136, ../sass/_grid.scss */
   .maincontent {
     padding-top: 0;
     overflow: visible;
   }
 }
 @media (min-width: 120em) {
-  /* line 134, ../sass/_grid.scss */
+  /* line 136, ../sass/_grid.scss */
   .maincontent {
     padding-top: 20rem;
     width: 110rem;
@@ -171,14 +173,14 @@ nav ul li a {
   }
 }
 
-/* line 151, ../sass/_grid.scss */
+/* line 153, ../sass/_grid.scss */
 h1 {
   display: block;
   margin-bottom: 1em;
 }
 
 @media (min-width: 50em) {
-  /* line 156, ../sass/_grid.scss */
+  /* line 158, ../sass/_grid.scss */
   h1, h3, h4, h5, p {
     width: 43.33333%;
     margin-right: 21.11111%;
@@ -189,7 +191,7 @@ h1 {
 }
 
 @media (min-width: 50em) {
-  /* line 160, ../sass/_grid.scss */
+  /* line 162, ../sass/_grid.scss */
   h2 {
     width: 28.88889%;
     float: left;
@@ -200,41 +202,41 @@ h1 {
   }
 }
 
-/* line 164, ../sass/_grid.scss */
+/* line 166, ../sass/_grid.scss */
 section {
   display: block;
   padding-top: 2rem;
   clear: both;
 }
 
-/* line 170, ../sass/_grid.scss */
+/* line 172, ../sass/_grid.scss */
 section:target {
   padding-top: 15rem;
 }
 @media (max-width: 50em) {
-  /* line 170, ../sass/_grid.scss */
+  /* line 172, ../sass/_grid.scss */
   section:target {
     padding-top: 3rem;
   }
 }
 
-/* line 178, ../sass/_grid.scss */
+/* line 180, ../sass/_grid.scss */
 .indent, li {
   margin-left: 3.33333%;
 }
 
-/* line 182, ../sass/_grid.scss */
+/* line 184, ../sass/_grid.scss */
 .topspace {
   margin-top: 1em;
 }
 
 @media (max-width: 50em) {
-  /* line 187, ../sass/_grid.scss */
+  /* line 189, ../sass/_grid.scss */
   .maincontent {
     margin: 0 3.33333%;
   }
 }
-/* line 192, ../sass/_grid.scss */
+/* line 194, ../sass/_grid.scss */
 img {
   float: left;
   margin-left: 35.55556%;
@@ -243,7 +245,7 @@ img {
   border-radius: 5px;
 }
 @media (max-width: 50em) {
-  /* line 192, ../sass/_grid.scss */
+  /* line 194, ../sass/_grid.scss */
   img {
     max-width: 100%;
     float: none;
@@ -252,7 +254,7 @@ img {
   }
 }
 
-/* line 207, ../sass/_grid.scss */
+/* line 209, ../sass/_grid.scss */
 .bio img {
   float: left;
   margin-left: 17.77778%;
@@ -260,7 +262,7 @@ img {
   clear: left;
 }
 @media (max-width: 50em) {
-  /* line 207, ../sass/_grid.scss */
+  /* line 209, ../sass/_grid.scss */
   .bio img {
     display: block;
     float: none;
@@ -271,55 +273,55 @@ img {
   }
 }
 
-/* line 223, ../sass/_grid.scss */
+/* line 225, ../sass/_grid.scss */
 .bio:first-of-type {
   padding-top: 2rem;
 }
 @media (max-width: 50em) {
-  /* line 223, ../sass/_grid.scss */
+  /* line 225, ../sass/_grid.scss */
   .bio:first-of-type {
     padding-top: 2rem;
   }
 }
 
-/* line 231, ../sass/_grid.scss */
+/* line 233, ../sass/_grid.scss */
 .bio {
   height: auto;
   padding: 1rem 0;
   clear: both;
 }
 @media (max-width: 50em) {
-  /* line 231, ../sass/_grid.scss */
+  /* line 233, ../sass/_grid.scss */
   .bio {
     padding: 1rem 0;
   }
 }
 
-/* line 241, ../sass/_grid.scss */
+/* line 243, ../sass/_grid.scss */
 .bio:last-of-type {
   padding-bottom: 18rem;
 }
 @media (max-width: 50em) {
-  /* line 241, ../sass/_grid.scss */
+  /* line 243, ../sass/_grid.scss */
   .bio:last-of-type {
     padding-bottom: 2rem;
   }
 }
 
-/* line 248, ../sass/_grid.scss */
+/* line 250, ../sass/_grid.scss */
 .footer {
   height: 12rem;
   clear: both;
 }
 
-/* line 253, ../sass/_grid.scss */
+/* line 255, ../sass/_grid.scss */
 .herosvg {
   width: 18.88889%;
   margin-left: 47.77778%;
   padding-bottom: 3rem;
 }
 @media (max-width: 50em) {
-  /* line 253, ../sass/_grid.scss */
+  /* line 255, ../sass/_grid.scss */
   .herosvg {
     width: 50%;
     margin-left: 25%;
@@ -328,23 +330,23 @@ img {
   }
 }
 
-/* line 266, ../sass/_grid.scss */
+/* line 268, ../sass/_grid.scss */
 .opportunitiesoff {
   display: none;
 }
 
-/* line 270, ../sass/_grid.scss */
+/* line 272, ../sass/_grid.scss */
 .dropdownmenu:hover {
   text-decoration: underline;
   cursor: hand;
 }
 
-/* line 275, ../sass/_grid.scss */
+/* line 277, ../sass/_grid.scss */
 .opportunitieson {
   display: block;
 }
 
-/* line 279, ../sass/_grid.scss */
+/* line 281, ../sass/_grid.scss */
 #opportunitiesdropdown {
   background: url("../images/greybackground.png");
   margin: 0;
@@ -352,28 +354,28 @@ img {
   position: absolute;
   width: auto;
 }
-/* line 286, ../sass/_grid.scss */
+/* line 288, ../sass/_grid.scss */
 #opportunitiesdropdown li {
   margin: 0;
   display: block;
 }
-/* line 290, ../sass/_grid.scss */
+/* line 292, ../sass/_grid.scss */
 #opportunitiesdropdown li a {
   padding: 1rem;
   display: block;
   margin: 0;
 }
 
-/* line 298, ../sass/_grid.scss */
+/* line 300, ../sass/_grid.scss */
 nav {
   clear: both;
 }
-/* line 300, ../sass/_grid.scss */
+/* line 302, ../sass/_grid.scss */
 nav a:hover {
   text-decoration: underline;
 }
 
-/* line 305, ../sass/_grid.scss */
+/* line 307, ../sass/_grid.scss */
 #announcement {
   background: url("../images/greybackground.png");
   width: 100%;
@@ -383,7 +385,7 @@ nav a:hover {
   position: fixed;
   padding-top: 8rem;
 }
-/* line 315, ../sass/_grid.scss */
+/* line 317, ../sass/_grid.scss */
 #announcement p {
   padding: 0;
   color: #fff;
@@ -391,17 +393,17 @@ nav a:hover {
   clear: none;
   margin-right: 0;
 }
-/* line 323, ../sass/_grid.scss */
+/* line 325, ../sass/_grid.scss */
 #announcement h2 {
   color: #fff;
 }
-/* line 327, ../sass/_grid.scss */
+/* line 329, ../sass/_grid.scss */
 #announcement a {
   margin: 0;
   padding: 0;
   color: #fff;
 }
-/* line 333, ../sass/_grid.scss */
+/* line 335, ../sass/_grid.scss */
 #announcement svg {
   fill: #fff;
   width: 3.33333%;
@@ -412,12 +414,12 @@ nav a:hover {
   padding-top: 0.25em;
   padding-bottom: 0.75em;
 }
-/* line 344, ../sass/_grid.scss */
+/* line 346, ../sass/_grid.scss */
 #announcement svg:hover {
   cursor: hand;
 }
 @media (max-width: 50em) {
-  /* line 305, ../sass/_grid.scss */
+  /* line 307, ../sass/_grid.scss */
   #announcement {
     position: relative;
     padding-top: 1rem;
@@ -426,23 +428,23 @@ nav a:hover {
     height: auto;
     width: auto;
   }
-  /* line 356, ../sass/_grid.scss */
+  /* line 358, ../sass/_grid.scss */
   #announcement h2 {
     font-size: 1em;
   }
-  /* line 359, ../sass/_grid.scss */
+  /* line 361, ../sass/_grid.scss */
   #announcement p {
     float: none;
     margin-right: 6.66667%;
     padding-bottom: 1rem;
   }
-  /* line 364, ../sass/_grid.scss */
+  /* line 366, ../sass/_grid.scss */
   #announcement svg {
     display: none;
   }
 }
 @media (min-width: 120em) {
-  /* line 305, ../sass/_grid.scss */
+  /* line 307, ../sass/_grid.scss */
   #announcement {
     width: 110em;
     margin: 0 auto;
@@ -451,12 +453,12 @@ nav a:hover {
   }
 }
 
-/* line 375, ../sass/_grid.scss */
+/* line 377, ../sass/_grid.scss */
 .announcementon {
   display: block;
 }
 
-/* line 379, ../sass/_grid.scss */
+/* line 381, ../sass/_grid.scss */
 .announcementoff {
   display: none;
 }

@@ -40,6 +40,8 @@ html {
 }
 
 nav {
+	-webkit-transform: translate3d(0,0,1px);
+	transform: translate3d(0,0,1px);
     z-index: 1;
     background: rgba(0, 0, 0, 0.8); 
     background: url('../images/background.png');
