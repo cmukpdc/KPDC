@@ -4,21 +4,28 @@ function hasclass(elem, c) {
 
 function dropdown() {
 	var dropdownlist = document.getElementById("opportunitiesdropdown")
-	if (hasclass(dropdownlist, 'visibleOff')) {
-		dropdownlist.classList.remove('visibleOff');
-		dropdownlist.classList.add('visibleOn');
+	if (hasclass(dropdownlist, 'opportunitiesoff')) {
+		dropdownlist.classList.remove('opportunitiesoff');
+		dropdownlist.classList.add('opportunitieson');
 	}
 	else {
-		dropdownlist.classList.remove('visibleOn');
-		dropdownlist.classList.add('visibleOff');
+		dropdownlist.classList.remove('opportunitieson');
+		dropdownlist.classList.add('opportunitiesoff');
 	}
 }
 
 function closedropdown() {
 	var dropdownlist = document.getElementById("opportunitiesdropdown")
-	if (hasclass(dropdownlist, 'visibleOn')) {
-		dropdownlist.classList.remove('visibleOn');
-		dropdownlist.classList.add('visibleOff');
+	if (hasclass(dropdownlist, 'opportunitieson')) {
+		dropdownlist.classList.remove('opportunitieson');
+		dropdownlist.classList.add('opportunitiesoff');
 	}
+}
 
+function closeannouncement() {
+	var announcementdiv = document.getElementById("announcement")
+	if (hasclass(announcementdiv, 'announcementon')) {
+		announcementdiv.classList.remove('announcementon');
+		announcementdiv.classList.add('announcementoff');
+	}
 }

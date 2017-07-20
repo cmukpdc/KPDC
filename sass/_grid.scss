@@ -45,8 +45,8 @@ nav {
     background: rgba(0, 0, 0, 0.8); 
     background: url('../images/background.png');
 	width: 100%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
 	.homesvg {
 	    width: 3 * $gutter;
@@ -133,12 +133,13 @@ nav {
 }
 
 .maincontent {
-	padding-top: 18rem;
+	padding-top: 16rem;
 	overflow: auto;
     background: url('../images/whitebackground.png');
 
 	@media (max-width: 50em) {
 	    padding-top:0;
+	    overflow: visible;
 	}
 
 	@media (min-width: 120em) {
@@ -263,7 +264,7 @@ img {
 	}
 }
 
-.visibleOff {
+.opportunitiesoff {
 	display: none;
 }
 
@@ -272,8 +273,11 @@ img {
 	cursor: hand;
 }
 
-.visibleOn {
+.opportunitieson {
 	display: block;
+}
+
+#opportunitiesdropdown {
 	background: url('../images/greybackground.png');
 	margin: 0;
 	padding: 0;
@@ -293,7 +297,73 @@ img {
 }
 
 nav {
+    clear: both;
 	a:hover {
 	    text-decoration: underline;
 	}
+}
+
+#announcement {
+    background: url('../images/greybackground.png');
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	position: fixed;
+	padding-top: 8rem;
+
+	p {
+	    padding: 0;
+    	color: #fff;
+		float: right;
+		clear: none;
+		margin-right: 0;
+	}
+
+	h2 {
+	    color: #fff;
+	}
+
+	a {
+	    margin: 0;
+	    padding: 0;
+    	color: #fff;
+	}
+
+	svg {
+	    fill: #fff;
+	    width: $gutter;
+	    float: right;
+	    height: 1rem;
+	    display: inline;
+	    margin-right: .5 * $col + $gutter;
+	    padding-top: 0.25em;
+	    padding-bottom: 0.75em;
+	}
+
+	@media (max-width: 50em) {
+	    position: relative;
+	    padding-top: 1rem;
+	    padding-left: $gutter;
+	    padding-right: $gutter;
+	    height: auto;
+
+	    h2 {
+	        font-size: 1em;
+	    }
+	    p {
+	        float: none;
+	        margin-right: 2 * $gutter;
+	        padding-bottom: 1rem;
+	    }
+	    svg {display: none;}
+	}
+}
+
+.announcementon {
+	display: block;
+}
+
+.announcementoff {
+	display: none;
 }
