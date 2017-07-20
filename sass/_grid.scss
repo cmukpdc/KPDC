@@ -31,7 +31,7 @@ $doubleCol:         (100% / 2) - $doubleColGutter - ($doubleColGutter / 2);
 
 html {
     background-color: #111;
-    background: url('../images/background.png');
+    background: url('../images/greybackground.png');
     background-attachment: fixed;
 
     @media (max-width: 50em) {
@@ -305,12 +305,13 @@ nav {
 
 #announcement {
     background: url('../images/greybackground.png');
-	width: auto;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	clear: both;
 	position: fixed;
 	padding-top: 8rem;
+
 
 	p {
 	    padding: 0;
@@ -351,6 +352,7 @@ nav {
 	    padding-left: $gutter;
 	    padding-right: $gutter;
 	    height: auto;
+	    width: auto;
 
 	    h2 {
 	        font-size: 1em;

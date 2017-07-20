@@ -58,7 +58,7 @@ table {
 /* line 32, ../sass/_grid.scss */
 html {
   background-color: #111;
-  background: url("../images/background.png");
+  background: url("../images/greybackground.png");
   background-attachment: fixed;
 }
 @media (max-width: 50em) {
@@ -376,14 +376,14 @@ nav a:hover {
 /* line 306, ../sass/_grid.scss */
 #announcement {
   background: url("../images/greybackground.png");
-  width: auto;
+  width: 100%;
   margin: 0;
   padding: 0;
   clear: both;
   position: fixed;
   padding-top: 8rem;
 }
-/* line 315, ../sass/_grid.scss */
+/* line 316, ../sass/_grid.scss */
 #announcement p {
   padding: 0;
   color: #fff;
@@ -391,17 +391,17 @@ nav a:hover {
   clear: none;
   margin-right: 0;
 }
-/* line 323, ../sass/_grid.scss */
+/* line 324, ../sass/_grid.scss */
 #announcement h2 {
   color: #fff;
 }
-/* line 327, ../sass/_grid.scss */
+/* line 328, ../sass/_grid.scss */
 #announcement a {
   margin: 0;
   padding: 0;
   color: #fff;
 }
-/* line 333, ../sass/_grid.scss */
+/* line 334, ../sass/_grid.scss */
 #announcement svg {
   fill: #fff;
   width: 3.33333%;
@@ -412,7 +412,7 @@ nav a:hover {
   padding-top: 0.25em;
   padding-bottom: 0.75em;
 }
-/* line 344, ../sass/_grid.scss */
+/* line 345, ../sass/_grid.scss */
 #announcement svg:hover {
   cursor: hand;
 }
@@ -424,29 +424,30 @@ nav a:hover {
     padding-left: 3.33333%;
     padding-right: 3.33333%;
     height: auto;
+    width: auto;
   }
-  /* line 355, ../sass/_grid.scss */
+  /* line 357, ../sass/_grid.scss */
   #announcement h2 {
     font-size: 1em;
   }
-  /* line 358, ../sass/_grid.scss */
+  /* line 360, ../sass/_grid.scss */
   #announcement p {
     float: none;
     margin-right: 6.66667%;
     padding-bottom: 1rem;
   }
-  /* line 363, ../sass/_grid.scss */
+  /* line 365, ../sass/_grid.scss */
   #announcement svg {
     display: none;
   }
 }
 
-/* line 367, ../sass/_grid.scss */
+/* line 369, ../sass/_grid.scss */
 .announcementon {
   display: block;
 }
 
-/* line 371, ../sass/_grid.scss */
+/* line 373, ../sass/_grid.scss */
 .announcementoff {
   display: none;
 }
