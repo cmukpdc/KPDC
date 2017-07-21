@@ -408,10 +408,10 @@ nav a:hover {
   fill: #fff;
   width: 3.33333%;
   float: right;
-  height: 1rem;
+  height: 1.5em;
   display: inline;
   margin-right: 17.77778%;
-  padding-top: 0.25em;
+  padding-top: 0;
   padding-bottom: 0.75em;
 }
 /* line 346, ../sass/_grid.scss */
