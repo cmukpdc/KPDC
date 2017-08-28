@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1.hero {
+    margin-right: 0;
     white-space: nowrap;
     position: relative;
 	font-size: 6rem;
@@ -43,8 +44,10 @@ h1.hero {
 	margin-top: -6rem;
 	z-index: 99;
 	line-height: 1.35;
-	margin-bottom: 1rem;
 	font-weight: 800;
+	margin-bottom: 0;
+	text-align: center;
+	width: 100%;
 
 	@media (max-width: 90em) {
 	    font-size: 5rem;
