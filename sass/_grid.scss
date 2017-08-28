@@ -12,7 +12,7 @@ $doubleCol:         (100% / 2) - $doubleColGutter - ($doubleColGutter / 2);
     @media (min-width: 50em) {
         width: $col;
         float: left;
-        overflow: auto;
+        // overflow: auto;
         clear: left;
         text-align: right;
         margin-left: $gutter;
@@ -24,7 +24,7 @@ $doubleCol:         (100% / 2) - $doubleColGutter - ($doubleColGutter / 2);
         width: (1.5 * $col);
         margin-right: (0.5 * $col) + ($gutter * 2);
         float: right;
-        overflow: auto;
+        // overflow: auto;
         clear: right;
     }
 }
@@ -42,7 +42,7 @@ html {
 nav {
 	-webkit-transform: translate3d(0,0,1px);
 	transform: translate3d(0,0,1px);
-    z-index: 1;
+    z-index: 100;
     background: rgba(0, 0, 0, 0.8); 
     background: url('../images/background.png');
 	width: 100%;
@@ -87,7 +87,7 @@ nav {
 
     ul {
     	padding-top: 1.7rem;
-    	width: 22em;
+    	width: 24em;
     	margin: 0 auto;
 
         li {
@@ -134,17 +134,17 @@ nav {
 }
 
 .maincontent {
-	padding-top: 16rem;
-	overflow: auto;
+	// padding-top: 7rem;
+	// overflow: auto;
     background: url('../images/whitebackground.png');
 
 	@media (max-width: 50em) {
 	    padding-top:0;
-	    overflow: visible;
+	    // overflow: visible;
 	}
 
 	@media (min-width: 120em) {
-	    padding-top: 20rem;
+	    // padding-top: 7rem;
 	    width: 110rem;
 	    margin: 0 auto;
 	}
@@ -167,6 +167,10 @@ section {
 	display: block;
 	padding-top: 2rem;
 	clear: both;
+}
+
+section:first-of-type {
+	padding-top: 0;
 }
 
 section:target {
@@ -253,15 +257,63 @@ img {
 }
 
 .herosvg {
-	width: $col - 10%;
+    margin-top: -23rem;
+	width: 15rem;
 	margin-left: 1.25 * $col + 2 * $gutter + 5%;
-	padding-bottom: 3rem;
+    
+    @media (max-width: 90em) {
+        width: 13rem;
+        margin-top: -19rem;
+    }
+
+    @media (max-width: 85em) {
+        margin-top: -18rem;
+    }
+
+    @media (max-width: 80em) {
+        margin-top: -16rem;
+        width: 10rem;
+        margin-left: 1.25 * $col + 2 * $gutter + 8%;
+    }
+
+    @media (max-width: 70em) {
+        margin-top: -13rem;
+        width: 8rem;
+    	margin-left: 1.25 * $col + 2 * $gutter + 10%;
+
+    }
+
+    @media (max-width: 60em) {
+        margin-top: -11rem;
+        width: 6rem;
+    	margin-left: 1.25 * $col + 2 * $gutter + 10%;
+
+    }
 
 	@media (max-width: 50em) {
-		width: 50%;
-		margin-left: 25%;
-		margin-top: 2rem;
-		padding-bottom: 2rem;
+		display: none;
+	}
+}
+
+img.hero {
+	z-index: -1;
+	border-radius: 0;
+	margin: 0;
+	max-width: 100%;
+	clear: both;
+	margin-top: 7rem;
+
+	@media (max-width: 50em) {
+	    margin-top: 0;
+	}
+
+	@media (min-width: 120em) {
+	    max-width: 110rem;
+	    width: 110rem;
+	    margin: 0 auto;
+	    display: block;
+	    float: none;
+	    padding-top: 7rem;
 	}
 }
 
