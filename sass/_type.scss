@@ -48,6 +48,7 @@ h1.hero {
 	margin-bottom: 0;
 	text-align: center;
 	width: 100%;
+	overflow: hidden;
 
 	@media (max-width: 90em) {
 	    font-size: 5rem;
@@ -95,6 +96,10 @@ nav {
 		@include typeHeader;
 		text-decoration: none;
 		color: #fff;
+
+		@media (max-width: 50em) {
+		    font-size:.8rem;
+		}
 	}
 	a.currentlink {
 	    text-decoration: underline;
