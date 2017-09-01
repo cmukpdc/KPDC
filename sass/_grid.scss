@@ -88,7 +88,7 @@ nav {
 
     ul {
     	padding-top: 1.7rem;
-    	width: 19.5em;
+    	width: 15.7em;
     	margin: 0 auto;
 
         li {
@@ -132,6 +132,10 @@ nav {
         margin-left: auto;
         margin-right: auto;
 	}
+}
+
+#announcement {
+	z-index: 99;
 }
 
 .herodiv {
