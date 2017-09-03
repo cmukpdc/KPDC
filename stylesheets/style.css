@@ -144,7 +144,7 @@ nav ul li a {
 @media (min-width: 120em) {
   /* line 42, ../sass/_grid.scss */
   nav {
-    width: 110rem;
+    width: 120rem;
     left: 0;
     right: 0;
     margin-left: auto;
