@@ -104,7 +104,7 @@ nav .hidden {
 /* line 89, ../sass/_grid.scss */
 nav ul {
   padding-top: 1.7rem;
-  width: 15.7em;
+  width: 20em;
   margin: 0 auto;
 }
 /* line 94, ../sass/_grid.scss */
@@ -144,7 +144,7 @@ nav ul li a {
 @media (min-width: 120em) {
   /* line 42, ../sass/_grid.scss */
   nav {
-    width: 120rem;
+    width: 110rem;
     left: 0;
     right: 0;
     margin-left: auto;
