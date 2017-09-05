@@ -278,6 +278,11 @@ img {
   }
 }
 
+#subunits img {
+  margin-left: 0;
+  max-width: 100%;
+}
+
 /* line 234, ../sass/_grid.scss */
 .bio:first-of-type {
   padding-top: 2rem;
