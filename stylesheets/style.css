@@ -533,6 +533,19 @@ nav a:hover {
   display: none;
 }
 
+/* line 445, ../sass/_grid.scss */
+.maincontent iframe {
+  margin-left: 35.55556%;
+  width: 43.33333%;
+}
+@media (max-width: 50em) {
+  /* line 445, ../sass/_grid.scss */
+  .maincontent iframe {
+    width: 100%;
+    margin: 0;
+  }
+}
+
 /* line 20, ../sass/_type.scss */
 p {
   font-family: 'Nunito Sans', sans-serif;

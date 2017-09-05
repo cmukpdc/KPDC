@@ -441,3 +441,13 @@ nav {
 .announcementoff {
 	display: none;
 }
+
+.maincontent iframe {
+	margin-left: 2 * $gutter + $col;
+	width: $col * 1.5;
+
+	@media (max-width: 50em) {
+	    width: 100%;
+	    margin: 0;
+	}
+}
