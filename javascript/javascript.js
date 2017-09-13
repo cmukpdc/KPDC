@@ -3,22 +3,22 @@ function hasclass(elem, c) {
 }
 
 function dropdown() {
-	var dropdownlist = document.getElementById("opportunitiesdropdown")
-	if (hasclass(dropdownlist, 'opportunitiesoff')) {
-		dropdownlist.classList.remove('opportunitiesoff');
-		dropdownlist.classList.add('opportunitieson');
+	var dropdownlist = document.getElementById("dancedropdown")
+	if (hasclass(dropdownlist, 'danceoff')) {
+		dropdownlist.classList.remove('danceoff');
+		dropdownlist.classList.add('danceon');
 	}
 	else {
-		dropdownlist.classList.remove('opportunitieson');
-		dropdownlist.classList.add('opportunitiesoff');
+		dropdownlist.classList.remove('danceon');
+		dropdownlist.classList.add('danceoff');
 	}
 }
 
 function closedropdown() {
-	var dropdownlist = document.getElementById("opportunitiesdropdown")
-	if (hasclass(dropdownlist, 'opportunitieson')) {
-		dropdownlist.classList.remove('opportunitieson');
-		dropdownlist.classList.add('opportunitiesoff');
+	var dropdownlist = document.getElementById("dancedropdown")
+	if (hasclass(dropdownlist, 'danceon')) {
+		dropdownlist.classList.remove('danceon');
+		dropdownlist.classList.add('danceoff');
 	}
 }
 

@@ -278,11 +278,6 @@ img {
   }
 }
 
-#subunits img {
-  margin-left: 0;
-  max-width: 100%;
-}
-
 /* line 234, ../sass/_grid.scss */
 .bio:first-of-type {
   padding-top: 2rem;
@@ -406,7 +401,7 @@ img.hero {
 }
 
 /* line 326, ../sass/_grid.scss */
-.opportunitiesoff {
+.danceoff {
   display: none;
 }
 
@@ -417,12 +412,12 @@ img.hero {
 }
 
 /* line 335, ../sass/_grid.scss */
-.opportunitieson {
+.danceon {
   display: block;
 }
 
 /* line 339, ../sass/_grid.scss */
-#opportunitiesdropdown {
+#dancedropdown {
   background: url("../images/greybackground.png");
   margin: 0;
   padding: 0;
@@ -430,12 +425,12 @@ img.hero {
   width: auto;
 }
 /* line 346, ../sass/_grid.scss */
-#opportunitiesdropdown li {
+#dancedropdown li {
   margin: 0;
   display: block;
 }
 /* line 350, ../sass/_grid.scss */
-#opportunitiesdropdown li a {
+#dancedropdown li a {
   padding: 1rem;
   display: block;
   margin: 0;
@@ -539,16 +534,74 @@ nav a:hover {
 }
 
 /* line 445, ../sass/_grid.scss */
-.maincontent iframe {
+.video16-9 {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 24.4%;
+  margin-left: 35.55556%;
+  width: 43.33333%;
+}
+/* line 453, ../sass/_grid.scss */
+.video16-9 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 50em) {
+  /* line 445, ../sass/_grid.scss */
+  .video16-9 {
+    width: 100%;
+    margin-left: 0;
+    padding-bottom: 56.25%;
+  }
+}
+
+/* line 468, ../sass/_grid.scss */
+.video4-3 {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 32.5%;
+  margin-left: 35.55556%;
+  width: 43.33333%;
+}
+/* line 476, ../sass/_grid.scss */
+.video4-3 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 50em) {
+  /* line 468, ../sass/_grid.scss */
+  .video4-3 {
+    width: 100%;
+    margin-left: 0;
+    padding-bottom: 75%;
+  }
+}
+
+/* line 491, ../sass/_grid.scss */
+.googleform {
   margin-left: 35.55556%;
   width: 43.33333%;
 }
 @media (max-width: 50em) {
-  /* line 445, ../sass/_grid.scss */
-  .maincontent iframe {
+  /* line 491, ../sass/_grid.scss */
+  .googleform {
     width: 100%;
     margin: 0;
   }
+}
+
+/* line 501, ../sass/_grid.scss */
+p img {
+  max-width: 100%;
+  margin: 0;
 }
 
 /* line 20, ../sass/_type.scss */
