@@ -8,13 +8,18 @@
         <script src="javascript/jquery.js"></script>
         <script> 
         $(function(){
-          $("#includeHeader").load("bootstrap/header.html"); 
+          $("#includeHeader").load("bootstrap/header.html?v=123456"); 
         });
         </script> 
         <link rel="shortcut icon" href="./images/favicon.ico" type="image/x=icon">
     </head>
+
     <body>
+        <!--load the nav bar -->
         <header id="includeHeader"></header>
+
+        <!--banner-->
+        <!--
         <div id="announcement" class="announcementon">
                 <h2>Announcement!</h2>
                 <svg onclick='closeannouncement()' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
@@ -34,6 +39,7 @@
                 </svg>
                 <p>SUBUNIT MATCHING WEEK HAS BEGUN! Come check out all our dances as <a href="/dance/openclass.html">open classes</a> this week, and rank your desired subunits <a href="/dance/officialsubunits.html">in the form by Sep. 14!</a></p>
             </div>
+        -->
         <div onclick="closedropdown()" class="herodiv">
             <img class="hero" src="./images/heroHome.jpg" />
             <svg class="herosvg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

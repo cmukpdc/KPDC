@@ -27,9 +27,6 @@
                     <li><a href="dance/openclass.html">Open Classes</a></li>
                     <li><a href="dance/officialsubunits.html">Official Subunits</a></li>
                     <li><a href="dance/sideprojects.html">Side Projects</a></li>
-                    <li><a href="dance/covercontests.html">Cover Contests</a></li>
-                    <li><a href="dance/specialeventsubunits.html">Special Event Subunits</a></li>
-                    <li><a href="dance/kpdcrew.html">KPDCrew</a></li>
                 </ul>
             </li>
             <li><a href="events/index.html">Events</a></li>

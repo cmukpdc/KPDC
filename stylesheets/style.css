@@ -614,6 +614,15 @@ p {
   font-weight: 300;
 }
 
+ul {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+  color: #333;
+  font-weight: 300;
+}
+
 /* line 24, ../sass/_type.scss */
 #announcement p {
   margin-bottom: 0;
