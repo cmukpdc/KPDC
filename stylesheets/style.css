@@ -436,6 +436,9 @@ img.hero {
   margin: 0;
 }
 
+
+
+
 /* line 358, ../sass/_grid.scss */
 nav {
   clear: both;
@@ -622,6 +625,7 @@ ul {
   color: #333;
   font-weight: 300;
 }
+
 
 /* line 24, ../sass/_type.scss */
 #announcement p {
