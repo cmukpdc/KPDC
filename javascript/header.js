@@ -33,6 +33,7 @@
             <li><a href="leadership/index.html">Leadership</a></li>
             <li><a href="social/index.html">Social</a></li>
             <li><a href="merchandise/index.html">Merchandise</a></li>
+            <li><a href="feedback/index.html">Feedback</a></li>
         </ul>
     </nav>
 </header>
